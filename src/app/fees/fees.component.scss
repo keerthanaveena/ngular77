@@ -1,0 +1,35 @@
+.un-billed-amount {
+  display: block;
+  font-size:3.5vh;
+  font-weight:500;
+}
+.un-billed {
+  font-size:3.5vh;
+  color:palevioletred;
+}
+.fees-billed{
+  font-size:3.5vh;
+  color:darkgoldenrod;
+}
+.fees-paid{
+font-size:3.5vh;
+color:green;
+}
+.total-fees{
+font-size:3.5vh;
+color:lightseagreen;
+}
+.see-all{
+  text-align: right;
+  padding:10%;
+  justify-content: right;
+  float:right;
+}
+.block-info{
+  padding-top:3%;
+}
+.cost-not-included{
+  font-weight: 300;
+  color:grey;
+}
+

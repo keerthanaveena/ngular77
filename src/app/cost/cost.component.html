@@ -1,0 +1,33 @@
+<div class="cost-container">
+  <div class="fees-header">
+      <div class="left-content">
+        <h2>Cost</h2>
+      <p class="cost-not-included">All dispursements related to the matter</p>
+      </div>
+      <div class="right-content">
+        <select class="form-control">
+          <option *ngFor="let duration of lifematterdurations">{{duration}}</option>
+        </select>
+        </div>
+  </div>
+  
+
+
+<bar-app class="bar-app" bardata="{{bardata}}"></bar-app>
+
+<div class="row">
+    <div class="block-info col-md-4 col-sm-3 col-xs-2 col-lg-4">
+      <span class="un-billed">Cost Paid</span>
+      <span class="un-billed-amount">$100,000</span>
+    </div>
+     <div class="block-info col-md-4 col-sm-3 col-xs-2 col-lg-4">
+      <span class="fees-billed"> Cost Billed (Outstanding) </span>
+       <span class="un-billed-amount">$100,000</span>
+    </div>
+     <div class="block-info col-md-4 col-sm-6 col-xs-2 col-lg-4">
+      <span class="total-cost"> Total Cost Budget (Est.) </span>
+       <span class="un-billed-amount">$200,000</span>
+    </div>
+</div>
+
+</div>

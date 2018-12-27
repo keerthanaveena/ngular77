@@ -1,0 +1,13 @@
+<kendo-chart style="border:none; height:100px">
+  <kendo-chart-axis-defaults [majorGridLines]="{ visible : false}"   [minorGridLines]="{ visible : false }">
+  </kendo-chart-axis-defaults>
+  <kendo-chart-value-axis>
+      <kendo-chart-value-axis-item [line]="{visible:false}" labels="false">
+      </kendo-chart-value-axis-item>
+  </kendo-chart-value-axis>
+  <kendo-chart-series>
+      <kendo-chart-series-item type="bar" [gap]="0" [stack]="{ type: '100%' }" *ngFor="let bar of barData"
+      [data]="bar"></kendo-chart-series-item>
+ 
+    </kendo-chart-series>
+</kendo-chart>
