@@ -7,7 +7,7 @@ import { NumberFormatOptions } from '@telerik/kendo-intl';
 })
 export class BarComponent implements OnInit {
   @Input()
-  bardata: number [][];
+  bardata: any;
 
 barData:number [][] = [
   [2],
